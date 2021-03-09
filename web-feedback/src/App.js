@@ -4,8 +4,12 @@ import React, {useState} from 'react';
 
 function App() {
   const [showTaskDialog, setShowTaskDialog] = useState(false);
-  const confirm = () => {
-    console.log("Next clicked");
+  const cancel = () => {
+    setShowTaskDialog(false);
+};
+
+const confirm = () => {
+  console.log('next');
 };
   return (
     <>
@@ -14,6 +18,7 @@ function App() {
      </div>
      <Dialogue 
      show = {showTaskDialog}
+     cancel = {cancel}
      confirm = {confirm}
      />
     </>
