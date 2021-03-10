@@ -673,6 +673,7 @@ body {
   height: 41  0px;
 }
 
+
 .dialog__content {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -774,6 +775,37 @@ body {
   padding-bottom: 0.75rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.feedback1,
+.feedback2,
+.feedback3,
+.feedback4,
+.feedback5,
+.feedback6,
+.feedback7,
+.feedback8,
+.feedback9,
+.feedback10{
+  border: solid 1px black;
+  line-height: 1;
+  margin: 5px;
+  flex-grow: 4;
+}
+
+.haha {
+  border: solid 1px black;
+  width: 500px;
+  Height: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.jaja {
+  margin-top: 15px;
+}
+.feedback {
+  display: flex;
+  flex-direction: row;
 }
 
 .dialog__confirm:focus{
